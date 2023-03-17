@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #03024e;
+
+}
+
+/* MAIN */
+.caixa-principal{
+    margin-left: 160px;
+}
+
+
+.titulo1{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 90px;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.img{
+    margin-top: 100px;
+}
+
+
+
+/* main2 */
+
+
+.borda{
+    background-color: #F9F9FB;
+    width: 480px;
+    height: 476px;
+    border-radius: 4px;
+    
+    margin-top: 4px;
+    left: 800px;
+    position: relative;
+    bottom: 482px;
+
+}
+
+.login{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 55px;
+
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 30px;
+}
+
+#email{
+    padding-left: 40px;
+}
+#password{
+    padding-left: 40px;
+}
+.email input{
+    width: 400px;
+    height: 48px;
+    background-color:  rgba(113, 128, 185, 0.32);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.carta{
+    position:absolute;
+    bottom: 306px;
+    padding-left: 9px;
+}
+
+.password input{
+    width: 400px;
+    height: 48px;
+    background-color:  rgba(113, 128, 185, 0.32);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.cadeado{
+    position:relative;
+    top: 40px;
+    padding-left: 9px;
+}
+
+.btn button{
+    width: 402px;
+    height: 48px;
+    padding: 2px;
+    margin-top: 10px;
+    background-color:  #7180B9;
+    border-radius: 4px;
+
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+
+    border: none;
+}
+
+.hr{
+    
+    width: 120px;
+    height: 4px;
+    background-color:  rgba(0, 0, 0, 0.32);
+    margin: auto auto;
+    margin-top: 20px;
+
+}
+
+
+.feet{
+    margin-top: 40px;
+    color:  #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+    
+}
+
+.github button{
+  position: relative;
+  bottom: 36px;
+  text-align: center;
+
+  width: 244px;
+  height: 48px;
+  background-color: #7180B9;
+
+  margin-left: 190px;
+  border-radius: 4px;
+
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
+
+  border: none;
+  cursor: pointer;
+
+}
+
+.git{
+    position: absolute;
+    bottom: 50px;
+    right: 200px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com validação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- main -->
+  <main class="caixa-principal">
+     <header>
+        <h1 class="titulo1">HighSchool</h1>
+     </header>
+    
+     <div class="img">
+          <img src="/img/imagem.png" width="576px" height="476.48px" alt="">
+     </div>
+    
+  </main>
+
+ <!-- main2 -->
+  <main>
+      <section class="borda">
+           <header>
+               <h1 class="login">Login</h1>
+           </header>
+
+           <div class="content">
+               <div id="error"></div>
+               
+               <form  id="form" action="/" method="GET"> 
+                   <div class="email">
+                       <img class="carta" src="svg/carta.svg" alt="carta">
+                        <input  type="email" placeholder="E-mail" 
+                        name="email" id="email">   
+                   </div>
+                    <div class="password">
+                        <img class="cadeado" src="svg/cadeado.svg" alt="cadeado">
+                        <input type="password" placeholder="*******" 
+                        name="password" id="password">
+                    </div>
+                     
+                     <div class="btn">
+                        <button type="submit">Login</button>
+                     </div>
+                  </form> 
+             </div>           
+          
+          <hr class="hr">
+
+
+         <footer class="foot">
+             <div class="feet">
+                <h1>ou entre com</h1>
+             </div>
+             
+             <div class="github">
+                <button id="">Github</button>
+                <img  class="git" src="svg/github.svg" alt="Github"> 
+
+             </div>
+         </footer>
+
+      </section>
+  </main>
+
+    <script src="/script.js"></script>
+</body>
+</html>
